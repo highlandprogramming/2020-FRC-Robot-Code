@@ -187,7 +187,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="LEB Encoder.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/LEB Encoder.vi"/>
 				<Item Name="Make Table Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Make Table Operation.ctl"/>
@@ -642,21 +642,20 @@ AddOutputFilter chunkFilter
 				<Item Name="Thumbstick.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/Xbox-One-Controller/Private/Type Defs/Indicators/Thumbstick.ctl"/>
 				<Item Name="All Axis Data.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/Xbox-One-Controller/Private/Type Defs/Indicators/All Axis Data.ctl"/>
 				<Item Name="DPad Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/Xbox-One-Controller/Private/Type Defs/Indicators/DPad Enum.ctl"/>
-				<Item Name="Read.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/Xbox-One-Controller/Public/Read.vi"/>
 				<Item Name="WPI_RobotDriveOpen4MotorWithVictorSPX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithVictorSPX.vi"/>
 				<Item Name="WPI_RobotDriveOpen4MotorWithTalonFX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithTalonFX.vi"/>
 				<Item Name="WPI_RobotDriveOpen4MotorWithFusionVenom.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithFusionVenom.vi"/>
-				<Item Name="ADI_IMU_ADIS16448_RefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/ADIS16448 IMU/ADI_IMU_ADIS16448_RefNum Registry Get.vi"/>
-				<Item Name="ADI_IMU_ADIS16448_Get Angles.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/ADIS16448 IMU/ADI_IMU_ADIS16448_Get Angles.vi"/>
-				<Item Name="ADI_IMU_ADIS16448_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/ADIS16448 IMU/ADI_IMU_ADIS16448_Open.vi"/>
-				<Item Name="ADI_IMU_ADIS16448_RefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/ADIS16448 IMU/ADI_IMU_ADIS16448_RefNum Registry Set.vi"/>
 				<Item Name="WPI_UtilitiesFRC SendMessageToConsole.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC SendMessageToConsole.vi"/>
 				<Item Name="NetComm_SendMessage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_SendMessage.vi"/>
-				<Item Name="Xbox One Controller Ref.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/Xbox-One-Controller/Private/Type Defs/Xbox One Controller Ref.ctl"/>
-				<Item Name="Open.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/Xbox-One-Controller/Public/Open.vi"/>
-				<Item Name="Open by Index.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/Xbox-One-Controller/Public/Open by Index.vi"/>
-				<Item Name="ADI_IMU_ADIS16448_Reset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/ADIS16448 IMU/ADI_IMU_ADIS16448_Reset.vi"/>
 				<Item Name="WPI_CameraMyConfigure.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraMyConfigure.vi"/>
+				<Item Name="Color Sensor V3 RefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/Color SensorV3/SubVI/Public/Color Sensor V3 RefNum Registry Get.vi"/>
+				<Item Name="Color Sensor V3 DevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/Color SensorV3/Typedef/Color Sensor V3 DevRef.ctl"/>
+				<Item Name="Color Sensor V3 Get Color.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/Color SensorV3/SubVI/Public/Color Sensor V3 Get Color.vi"/>
+				<Item Name="Color Sensor V3 To 20 Bit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/Color SensorV3/SubVI/Private/Color Sensor V3 To 20 Bit.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="Color Sensor V3 Match Color.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/Color SensorV3/SubVI/Public/Color Sensor V3 Match Color.vi"/>
+				<Item Name="Color Sensor V3 Color Match FGV.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/Color SensorV3/SubVI/Private/Color Sensor V3 Color Match FGV.vi"/>
+				<Item Name="Color Sensor V3 Color Match.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/Color SensorV3/Typedef/Color Sensor V3 Color Match.ctl"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
