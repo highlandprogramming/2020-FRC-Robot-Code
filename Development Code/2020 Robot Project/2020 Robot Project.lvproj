@@ -2,20 +2,6 @@
 <Project Type="Project" LVVersion="19008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Item Name="My Computer" Type="My Computer">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">My Computer/VI Server</Property>
-		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
-		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
-		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
-		<Item Name="Build Specifications" Type="Build"/>
-	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
 		<Property Name="alias.value" Type="Str">roboRIO-2603-FRC.local</Property>
@@ -802,7 +788,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Steel Stingers/Desktop/NI_AB_PROJECTNAME/Builds</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">336</Property>
+				<Property Name="Bld_version.build" Type="Int">339</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -839,5 +825,19 @@ AddOutputFilter chunkFilter
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 			</Item>
 		</Item>
+	</Item>
+	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
+		<Property Name="server.tcp.port" Type="Int">0</Property>
+		<Property Name="server.tcp.serviceName" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
+		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
