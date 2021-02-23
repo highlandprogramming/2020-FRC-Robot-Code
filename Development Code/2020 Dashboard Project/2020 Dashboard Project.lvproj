@@ -22,6 +22,7 @@
 		<Item Name="Vision" Type="Folder" URL="../Vision">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Get Swerve values.vi" Type="VI" URL="../../../../2021-FRC-Robot_Code/Development Code/2020 Dashboard Project/Get Swerve values.vi"/>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
